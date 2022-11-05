@@ -25,6 +25,39 @@
       font-size: 0;
     }
 
+    .icon-text {
+      @apply flex items-center py-0 px-3
+    }
+
+    .icon-image {
+      @apply h-5 min-w-[20px] w-5
+    }
+
+    .icon-text span {
+      font-size: 17px;
+      font-weight: bold;
+      letter-spacing: 1.5px;
+      line-height: 1.1px;
+      padding: 2px 0px;
+      white-space: nowrap;
+      position: relative;
+    }
+
+    .login {
+      padding: 8px 16px; 
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      font-weight: bold;
+      border: 1px solid white;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    .login:hover {
+      background-color: white;
+      color: #040714;
+    }
+
     .button {
       @apply font-bold text-[#F9F9F9] bg-[#0063E5] w-full mb-3 tracking-widest text-lg p-4 border-solid border-transparent rounded-sm hover:bg-[#0483EE] cursor-pointer
     }
